@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3rem;
+    .imagen {
+        width: 160px;
+        height: 80px;
+        object-fit: contain;
+    }
+}
+
+.footer {
+    margin-top: 3rem;
+    width: 84%;
+
+    .hr {
+        height: 0px;
+        margin-left: 20%;
+        margin-right: 0%;
+        background-color: #abb2b9;
+    }
+    .imagen-footer {
+        width: 350px;
+        margin-top: 2rem;
+        margin-left: 255px;
+        margin-bottom: 2rem;
+    }
+    .pie-pagina {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 420px;
+        .contacto {
+            display: flex;
+            gap: 12px;
+            color: #abb2b9;
+        }
+    }
+}

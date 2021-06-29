@@ -1,0 +1,52 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 300px;
+    margin-left: 30rem;
+
+    .input {
+        background-color: #86dcd7;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        margin-top: 1rem;
+        padding-left: 16px;
+        outline: none;
+        color: #566573;
+    }
+    .texto {
+        width: 300px;
+        line-height: 28px;
+        font-size: 23px;
+        .text-amarillo {
+            color: #f8ee06;
+            font-weight: 600;
+        }
+
+        .text-blanco {
+            color: white;
+            font-weight: 600;
+        }
+        .text1 {
+            color: white;
+        }
+        .text2 {
+            font-size: 18px;
+            color: #d0d3d4;
+        }
+    }
+}
+.check {
+    margin-top: 1rem;
+    color: #d0d3d4;
+    font-size: 12px;
+    display: flex;
+}
+
+.boton {
+    background-color: #f8ee06;
+    color: #1c2833;
+    width: 174px;
+    font-weight: 700;
+}

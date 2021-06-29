@@ -1,0 +1,26 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    .logo {
+        width: 296px;
+        margin-top: 7px;
+    }
+    .texto {
+        display: flex;
+        margin-left: 140px;
+        margin-top: 19px;
+        gap: 40px;
+        font-size: 11px;
+        color: #5d6d7e;
+    }
+    .boton {
+        margin-left: 40px;
+        background-color: #02557d;
+        color: white;
+        height: 34px;
+        width: 120px;
+    }
+}
